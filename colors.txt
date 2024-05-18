@@ -1,0 +1,10 @@
+#023D54 blue
+#9A6735	light blue
+#94DEA5 light green
+#ffff66	yellow
+
+
+#A87676 darkbr
+#CA8787	darpink	
+#E1ACAC	pink
+#FFD0D0 lilpink
