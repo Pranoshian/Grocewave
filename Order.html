@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3735c922e5.js" crossorigin="anonymous"></script>
+</head>
+<!-- Navbar -->
+<nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="fa-solid fa-bars"></i>
+    </label> 
+    <a href="#"><img src="./Img/Logo.png" alt="" class="logo"></a>
+    <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Aboutus.html">About Us</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a class="active"  href="Order.html">Order</a></li>
+        <li><a href="LR.html">Loyalty Registration</a></li>
+    </ul>
+    </nav>
+
+
+
+<body>
+        <section class="order-con">
+            <section id="order-Container" class="order-Container">
+                <section class="cons-o">
+                 <h1 class="order-Tittle">Order Form</h1>
+                 <form action="#">
+                    <section class="order-user-info">
+                        <section class="order-input-box">
+                            <label for="FullName">Full Name</label>
+                            <input type="text" name="FullName" placeholder="Enter Your Full Name">
+                        </section>
+                        <section class="order-input-box">
+                            <label for="Email-Address">Address</label>
+                            <input type="text" name="Address" placeholder="Enter Your Address">
+                        </section>
+                        <section class="order-input-box">
+                            <label for="Phone Number">Phone Number</label>
+                            <input type="text" name="Phone Number" placeholder="Enter Your Phone Number">
+                        </section>
+                    </section class="Products-detail-box">
+                        <span class="Products-tittle">Products</span>
+                        <section class="Products-cate">
+                            <input type="radio" name="Products" id="Dairy">
+                            <label for="Dairy">Dairy</label>
+                            <input type="radio" name="Products" id="Vegetables & Fruits">
+                            <label for="Vegetables & Fruits">Vegetables & Fruits</label>
+                            <input type="radio" name="Products" id="Cosmetics & Skincare">
+                            <label for="Cosmetics & Skincare">Cosmetics & Skincare</label>
+                        </section>
+                        <span class="Products-tittle">Payment Methord</span>
+                        <section class="Products-cate">
+                            <input type="radio" name="Products" id="card">
+                            <label for="Dairy">Card</label>
+                            <input type="radio" name="Products" id="cash">
+                            <label for="Vegetables & Fruits">Cash On Delivery</label>
+                        </section>
+                       <section class="Place-btn">    
+                        <input type="submit" value="Place Order">
+                       </section>
+                   </section>
+                 </form>
+                </section>
+                    <section class="cons-o">
+                    <section class="Cart-container">
+                    <h4>On Cart Items</h4>
+                    <div class="cart-item">
+                        <h1>Yogurt</h1>
+                        <img src="./Img/Products/Dairy/yogurt.webp">
+                    </div>
+                    <div class="cart-item">
+                        <h1>Apple</h1>
+                        <img src="./Img/Products//Vege/apple.jpg">
+                    </div>
+                    <div class="cart-item">
+                        <h1>Body Wash</h1>
+                        <img src="./Img/Products/Cosmetics/body wash.png">
+                    </div>
+                    </section>
+                    </section>
+            </section>           
+        </section>
+</body>
+
+
+<!-- Footer -->
+<section>
+    <footer>
+        <section class="row">
+           <section class="col"> 
+                <img src="./Img/Logo.png" class="logo1">
+                <p>GroceWave is your go-to destination for fresh, sustainable groceries delivered straight
+                     to your door.</p>
+        </section>
+        <section class="col"> 
+            <h3>My Account</h3>
+            <p>Cart.</p>
+            <p>Payment Method.</p>
+            <p>Register.</p>
+        </section>
+        <section class="col"> 
+            <h3>Help</h3>
+            <p>Shopping.</p>
+            <p>Contact Us.</p>
+            <p>Returns.</p>
+        </section>
+        <section class="col"> 
+            <h3>Social</h3>
+            <section class="Social-icon">
+                <i class="fab fa-brands fa-facebook"></i>
+                <i class="fab fa-brands fa-whatsapp"></i>
+                <i class="fab fa-brands fa-twitter"></i>
+                <i class="fab fa-brands fa-instagram"></i>
+            </section>
+        </section>
+    </footer>
+</section>
+
+</html>
