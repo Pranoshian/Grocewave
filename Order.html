@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3735c922e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label> 
+        <a href="#"><img src="./Img/Logo.png" alt="GroceWave Logo" class="logo"></a>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a class="active" href="Order.html">Order</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="order-flex">
+            <form id="order-form">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="title">Billing Address</h3>
+                        <div class="inputBox">
+                            <span>Full name :</span>
+                            <input type="text" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Email :</span>
+                            <input type="email" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Address :</span>
+                            <input type="text" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Phone Number :</span>
+                            <input type="tel" required>
+                        </div>
+                        <div id="payment-method">
+                            <span>Payment Method :</span>
+                            <label id="cash" class="payment-label">Cash On Delivery</label>
+                            <input type="checkbox" class="custom-checkbox" name="payment" checked>
+                            <label id="card" class="payment-label">Card Payment</label>
+                            <input type="checkbox" class="custom-checkbox" name="payment">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="submit" value="Pay Now" class="submit-btn">
+                </div>
+            </form>
+        </div>
+
+        <section>
+            <div class="order-flex">
+                <h1 class="o-h">Order Table</h1>
+                <div class="table-con">
+                    <table id="total-table">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Total</td>
+                                <td id="total-price">$0.00</td>
+                                <td></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--javascript link-->
+    <script src="./Js/order.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col"> 
+                <img src="./Img/Logo.png" class="logo1" alt="GroceWave Logo">
+                <p>GroceWave is your go-to destination for fresh, sustainable groceries delivered straight to your door.</p>
+            </div>
+            <div class="col"> 
+                <h3>My Account</h3>
+                <p>Cart</p>
+                <p>Payment Method</p>
+                <p>Register</p>
+            </div>
+            <div class="col"> 
+                <h3>Help</h3>
+                <p>Shopping</p>
+                <p>Contact Us</p>
+                <p>Returns</p>
+            </div>
+            <div class="col"> 
+                <h3>Social</h3>
+                <div class="Social-icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
