@@ -145,6 +145,6 @@ document.addEventListener("DOMContentLoaded", () => {
         // Save the order to get next page
         localStorage.setItem('currentOrder', JSON.stringify(order));
         //redirect browse to order page
-        window.location.href = './order.html';
+        window.location.href = './Order.html';
     });
 });
