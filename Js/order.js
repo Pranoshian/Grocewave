@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         strawberry: { price: 450.00 },
         grapes: { price: 380.00 },
         pineapple: { price: 250.00 },
-        pears: { price: 300.00 },
+        Pears: { price: 300.00 },
         papaya: { price: 180.00 },
         orange: { price: 200.00 },
         beef: { price: 1250.00 },
